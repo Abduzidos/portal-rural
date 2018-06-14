@@ -1,3 +1,4 @@
+
 *,
 *::before,
 *::after  {
@@ -61,7 +62,6 @@ input[type=submit]:hover {
 form { 
     margin: 0 auto; 
     width:500px;
-    
     padding-top: 7rem;
     /* border: 1px solid rgb(11, 14, 184); */
     font-size: 1.3rem;
@@ -73,5 +73,10 @@ form {
 }
 
 .submit-button {
-    margin-top: 4rem;
+    /* margin-top: 4rem; */
+    margin: 0 auto; 
+    display: flex;
+    margin-left: 43.3rem;
+    margin-top: 3rem;
+    
 }
