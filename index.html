@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<title>Portal Rural</title>
+
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<section class="header-container">
+
+	<div class="form">
+  	<form action="/action_page.php">
+    <label for="fname">Nome:</label>
+    <input type="text" id="fname" name="firstname" placeholder="Nome do evento...">
+
+    <label for="fname">Local</label>
+    <input type="text" id="fname" name="firstname" placeholder="Local do evento...">
+
+    <label for="lname">Data do Evento</label>
+    <input type="date" data-date-inline-picker="true" />
+
+    <input id="time" type="time">
+
+    <!-- <label for="subject">Subject</label> -->
+    <textarea id="subject" name="subject" placeholder="Detalhes do evento..." style="height:200px"></textarea>
+
+    <input type="file" name="fileupload" value="fileupload" id="fileupload">
+    <label for="fileupload">Selecione a imagem do evento</label>
+    <!-- <br><input type="image" src="/wp-content/uploads/sendform.png" alt="Submit" width="100"> -->
+
+    <input type="submit" value="Submit">
+    
+  </form>
+
+
+</div>
+
+	</section>
+</head>
+
+<script src="js/main.js"></script>
+
+</body>
+</html>
