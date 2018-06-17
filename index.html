@@ -10,15 +10,16 @@
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+
 	<section class="header-container">
 
 	<div class="form">
   	<form action="/action_page.php">
     <label for="fname">Nome:</label>
-    <input type="text" id="fname" name="firstname" placeholder="Nome do evento...">
+    <input type="text" id="nome" name="nomeevento" placeholder="Nome do evento...">
 
     <label for="fname">Local:</label>
-    <input type="text" id="fname" name="firstname" placeholder="Local do evento...">
+    <input type="text" id="local" name="localevento" placeholder="Local do evento...">
 
     <label for="lname">Data do Evento:</label>
     <input type="date" data-date-inline-picker="true" />
@@ -31,9 +32,11 @@
 
     <input type="file" name="fileupload" value="fileupload" id="fileupload">
     <label for="fileupload"></label>
+
+    <input class="submit-button" type="submit" value="Postar">
     
   </form>
-  <input class="submit-button" type="submit" value="Postar">
+ 
 
 </div>
 
